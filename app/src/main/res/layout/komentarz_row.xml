@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:clickable="false"
+    android:baselineAligned="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <com.facebook.login.widget.ProfilePictureView
+                android:id="@+id/profilFB"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                facebook:preset_size="small"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="34dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+           >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:background="@android:drawable/dialog_holo_light_frame">
+
+                <TextView
+                    android:id="@+id/tvUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/komentarzDataUser"
+
+                    android:text="Gość:"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tvKomentarz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaaaaaa aaaa  aa aaaaaaa aaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaa"
+                    android:textColor="@color/komentarzText"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:id="@+id/tvData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17:30 21.02.2016"
+                    android:textColor="@color/komentarzDataUser"
+
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="italic"
+                    android:textIsSelectable="false"
+                    android:layout_gravity="right"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

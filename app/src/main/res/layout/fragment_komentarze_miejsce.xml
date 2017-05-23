@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobstudio.jakjest.miejsce.KomentarzeMiejsce"
+    android:orientation="vertical">
+
+
+    <requestFocus android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="445dp">
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/komentarz_row"
+            android:layout_row="1"
+            android:layout_marginBottom="0dp"
+            android:dividerHeight="0dp"
+            android:divider="@null">
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <ImageButton
+            android:layout_width="83dp"
+            android:layout_height="69dp"
+            android:id="@+id/buttonDodajKomentarz"
+            android:adjustViewBounds="false"
+
+            android:src="@android:drawable/ic_input_add"
+            android:scaleType="fitXY"
+            android:clickable="false"
+            android:background="@null"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="50dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

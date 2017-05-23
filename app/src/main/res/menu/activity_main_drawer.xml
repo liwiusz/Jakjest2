@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_miejsca"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_miejsca" />
+        <item
+            android:id="@+id/nav_ulubione"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_ulubione" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_profil" />
+
+    </group>
+
+    <item android:title="Inne">
+        <menu>
+            <item
+                android:id="@+id/nav_ustawienia"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_ustawienia" />
+            <item
+                android:id="@+id/nav_opinia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_opinia" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gwiazda">#E7F9E907</color>
+    <color name="textInfoKomentarz">#E7000000</color>
+    <color name="komentarzDataUser">#e7c4c4c4</color>
+    <color name="komentarzText">#e7000000</color>
+  <color name="background_holo_light">#ce3636</color>
+
+</resources>
